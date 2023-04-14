@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+# EXPRESS DELIVERA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto FrontEnd desenvolvido em react para o sistema Express Delivera.
 
-## Available Scripts
+É um sistema que permite ao usuário selecionar uma rota de entrega com base na localização.
 
-In the project directory, you can run:
+Após escolher um ponto de início e outro de fim, será disponíbilizado três rotas para a entrega.
+Quando a rota é escolhida o trajeto é renderizado no Mapa.
 
-### `npm start`
+## Foram utilizadas as seguintes tecnologias:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Node.js
+- Typescript
+- React.js
+- Material UI
+- google-maps API
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Como Executar:
 
-### `npm test`
+Execute o seguinte comando para baixar as dependências
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm install`
 
-### `npm run build`
+O próximo comando irá executar a aplicação na URL: http://localhost:3000/
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# EXPRESS DELIVERA
 
-### `npm run eject`
+This is a frontand project developed in react for the system Express-Delivera.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+It is a system that allows the user to select a delivery route based on location.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+After choosing one start and end point, three routes will be available for delivery.
+When the route is chosen the route is rendered on the map.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## The following technologies were used:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Node.js
+- Typescript
+- React.js
+- Material UI
+- google-maps API
 
-## Learn More
+## How to perform:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run the following command to download the dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`npm install`
+
+The next command will run the application in the URL: http://localhost:3000/
+
+`npm start`
